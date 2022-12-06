@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "graphql-config.load.filePath": "./frontend/graphql.config.js",
+  "cSpell.words": ["fastify"],
+  "eslint.workingDirectories": ["./frontend", "./backend"],
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    "**/graphql/**": true
+  }
+}
